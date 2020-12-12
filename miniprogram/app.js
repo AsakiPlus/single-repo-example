@@ -15,14 +15,25 @@ App({
 }),
 
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/rili/rili",
     "pages/kebiao/kebiao",
-    "pages/user/user"
-   
-
+    "pages/user/user",
+    "pages/indexcloud/indexcloud",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -1,6 +1,11 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/logs/logs",
+    "pages/rili/rili",
+    "pages/kebiao/kebiao",
+    "pages/user/user",
+    "pages/indexcloud/indexcloud",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
@@ -14,13 +19,44 @@
     "pages/im/im",
     "pages/im/room/room"
   ],
-  "window": {
-    "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor":"#1296db",
+    "navigationBarTitleText": "备忘录",
+    "navigationBarTextStyle":"white"
   },
+  "style": "v2",
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+
+"tabBar": {
+   "color": "#a9b7b7",
+   "selectedColor": "#1296db",
+   "borderStyle": "black",
+   "list":[
+     {
+      "selectedIconPath":"images/home_true.png",
+      "iconPath":"images/home.png",
+      "pagePath":"pages/index/index",
+      "text":"首页"},
+
+     {
+       "selectedIconPath":"images/rili_true.png",
+       "iconPath":"images/rili.png",
+       "pagePath":"pages/rili/rili",
+       "text":"日程表"},
+      
+      {"selectedIconPath": "images/shuben_true.png",
+        "iconPath": "images/shuben.png",
+        "pagePath": "pages/kebiao/kebiao",
+        "text": "课程表"
+      },
+
+      {
+        "selectedIconPath": "images/user_true.png",
+        "iconPath": "images/user.png",
+        "pagePath": "pages/user/user",
+        "text": "用户"
+      }
+   ]
+  }
 }
